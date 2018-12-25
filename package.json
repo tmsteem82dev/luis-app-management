@@ -1,0 +1,15 @@
+{
+  "name": "tempbot01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "convert-lu": "ludown parse toluis -l luisModels -s -o publish -n myBotApp --verbose -c en-us",
+    "train-model": "luis train version --versionId",
+    "stage-model": "luis publish version --staging true --versionId",
+    "import-version": "luis import version --in publish/myBotApp.json --versionId"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

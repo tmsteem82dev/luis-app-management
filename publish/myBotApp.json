@@ -1,0 +1,111 @@
+{
+  "intents": [
+    {
+      "name": "common.goodbyes"
+    },
+    {
+      "name": "common.greetings"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "regex_entities": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "Bye",
+      "intent": "common.goodbyes",
+      "entities": []
+    },
+    {
+      "text": "Cya",
+      "intent": "common.goodbyes",
+      "entities": []
+    },
+    {
+      "text": "Goodbye",
+      "intent": "common.goodbyes",
+      "entities": []
+    },
+    {
+      "text": "Bye bye",
+      "intent": "common.goodbyes",
+      "entities": []
+    },
+    {
+      "text": "See you later",
+      "intent": "common.goodbyes",
+      "entities": []
+    },
+    {
+      "text": "I'm leaving",
+      "intent": "common.goodbyes",
+      "entities": []
+    },
+    {
+      "text": "Adios",
+      "intent": "common.goodbyes",
+      "entities": []
+    },
+    {
+      "text": "Hi",
+      "intent": "common.greetings",
+      "entities": []
+    },
+    {
+      "text": "Hiya",
+      "intent": "common.greetings",
+      "entities": []
+    },
+    {
+      "text": "Hey",
+      "intent": "common.greetings",
+      "entities": []
+    },
+    {
+      "text": "Heya",
+      "intent": "common.greetings",
+      "entities": []
+    },
+    {
+      "text": "Hello",
+      "intent": "common.greetings",
+      "entities": []
+    },
+    {
+      "text": "Howdy",
+      "intent": "common.greetings",
+      "entities": []
+    },
+    {
+      "text": "Good morning",
+      "intent": "common.greetings",
+      "entities": []
+    },
+    {
+      "text": "Good evening",
+      "intent": "common.greetings",
+      "entities": []
+    },
+    {
+      "text": "Good day",
+      "intent": "common.greetings",
+      "entities": []
+    },
+    {
+      "text": "Yo",
+      "intent": "common.greetings",
+      "entities": []
+    }
+  ],
+  "patterns": [],
+  "patternAnyEntities": [],
+  "prebuiltEntities": [],
+  "luis_schema_version": "3.0.0",
+  "versionId": "0.1.1",
+  "name": "myBotApp",
+  "desc": "",
+  "culture": "en-us"
+}
