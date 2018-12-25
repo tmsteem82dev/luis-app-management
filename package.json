@@ -7,10 +7,11 @@
     "train-model": "luis train version --versionId",
     "stage-model": "luis publish version --staging true --versionId",
     "import-version": "luis import version --in publish/myBotApp.json --versionId",
-    "delete-test": "luis delete version --versionId 0.t -f || exit 0",
+    "delete-test": "luis delete version --versionId 0.t || exit 0",
     "deploy-test": "npm run import-version -- 0.t && npm run train-model -- 0.t",
-    "stage-test": "npm run train-model -- 0.t",
-    "update-test": "npm-run-all delete-test deploy-test"
+    "stage-test": "npm run stage-model -- 0.t",
+    "update-test": "npm run delete-test && npm run deploy-test",
+    "get-test-info": "luis get version --versionId 0.t"
   },
   "keywords": [],
   "author": "",
