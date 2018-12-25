@@ -11,7 +11,8 @@
     "deploy-test": "npm run import-version -- 0.t && npm run train-model -- 0.t",
     "stage-test": "npm run stage-model -- 0.t",
     "update-test": "npm run delete-test && npm run deploy-test",
-    "get-test-info": "luis get version --versionId 0.t"
+    "get-test-info": "luis get version --versionId 0.t",
+    "test-to-prod": "luis clone version --versionId 0.t --newVersionId 0.2"
   },
   "keywords": [],
   "author": "",
